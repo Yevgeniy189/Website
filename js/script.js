@@ -374,11 +374,7 @@
         const payload = {
             name: nameValue,
             contact: contactValue,
-            task: taskValue,
-            form: formId,
-            timestamp: new Date().toISOString(),
-            source: window.location.href,
-            userAgent: navigator.userAgent
+            task: taskValue
         };
 
         setButtonLoading(submitButton, true);
