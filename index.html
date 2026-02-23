@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="PRIKHODKO Studio — разработка AI-ботов, AI-консультантов и интеграций. ROI-ориентированный подход. Бесплатная консультация.">
+    <meta name="keywords" content="AI, бот, консультант, автоматизация, интеграция, лидогенерация, 1С, CRM">
+    <meta name="author" content="PRIKHODKO AI Studio">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Security Meta Tags -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    
+    <!-- CSP Reference (для production сервера):
+    Content-Security-Policy: 
+        default-src 'self'; 
+        script-src 'self'; 
+        style-src 'self' 'unsafe-inline'; 
+        img-src 'self' data: https:; 
+        font-src 'self'; 
+        connect-src 'self' https://YOUR-BOT-URL;
+        frame-ancestors 'none';
+    -->
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="PRIKHODKO Studio — AI-боты и AI-консультанты">
+    <meta property="og:description" content="Разработка AI-решений для вашего бизнеса. Фокус на ROI.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://prikhodko-ai.com">
+    <meta property="og:image" content="https://www.shutterstock.com/image-vector/futuristic-robot-interacting-digital-data-600nw-2500204599.jpg">
+    <meta property="og:locale" content="ru_RU">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PRIKHODKO Studio — AI-агенты для бизнеса">
+    <meta name="twitter:description" content="AI-боты, AI-агенты и AI-интеграции. Считаем ROI.">
+    <meta name="twitter:image" content="https://miro.medium.com/v2/resize:fit:1400/1*_q9ZB5wchqc4OmyHcJp_Vw.png">
+    
+    <title>PRIKHODKO Studio — AI-боты и AI-консультанты</title>
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="css/styles.min.css" as="style">
+    <link rel="preload" href="js/script.min.js" as="script">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://play-lh.googleusercontent.com/LveArNPq5vArXjyQxV_EZr6HewWtgS7PPJSNlk3QggxoUcRm4EuW0y08ejFOuPxr1A=w600-h300-pc0xffffff-pd">
+    <link rel="apple-touch-icon" href="https://i.ytimg.com/vi/fvvRhaYn5e4/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CIAC0AWKAgwIABABGBMgQSh_MA8=&rs=AOn4CLBX02gd0ZCdHQ_S5ByTsRuD9PWLRQ">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://prikhodko-ai.com">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.min.css">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "PRIKHODKO Studio",
+        "description": "Разработка AI-ботов и AI-консультантов для бизнеса",
+        "url": "https://prikhodko-ai.com",
+        "telephone": "+7-XXX-XXX-XX-XX",
+        "email": "e.prikhodko@yandex.ru",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "RU"
+        },
+        "serviceType": "AI development, Chatbots, CRM integration",
+        "priceRange": "$$",
+        "openingHours": "Mo-Fr 10:00-19:00"
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip Link для доступности -->
+    <a href="#main-content" class="skip-link">Перейти к основному содержимому</a>
+    
+    <!-- Telegram Float Button -->
+    <a href="https://t.me/PRIKHODKO_AI_bot" 
+       target="_blank" 
+       class="telegram-float" 
+       aria-label="Написать в Telegram" 
+       rel="noopener noreferrer"
+       role="button">
+        <svg xmlns="https://cdn-icons-png.flaticon.com/512/1603/1603076.png" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.98-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.06-.2-.07-.06-.17-.04-.24-.02-.1.02-1.79 1.14-5.06 3.34-.48.33-.91.49-1.3.48-.43-.01-1.27-.24-1.89-.44-.76-.24-1.37-.37-1.32-.78.03-.2.2-.4.52-.54 2.05-.94 4.15-1.9 6.24-2.85 3.39-1.54 4.34-1.89 4.83-1.89.11 0 .37.03.54.17.14.11.18.26.2.36.02.1.04.31.02.5z"/>
+        </svg>
+    </a>
+
+    <!-- Header -->
+    <header class="site-header" role="banner">
+        <nav class="main-nav" aria-label="Главная навигация">
+            <a href="#top" class="logo" aria-label="PRIKHODKO AI - На главную">PRIKHODKO AI</a>
+            
+            <button class="burger" 
+                    id="burger" 
+                    aria-label="Открыть меню навигации" 
+                    aria-expanded="false"
+                    aria-controls="navLinks">
+                <span></span>
+            </button>
+            
+            <ul class="nav-links" id="navLinks" role="menubar">
+                <li role="none"><a href="#results" role="menuitem">Результаты</a></li>
+                <li role="none"><a href="#services" role="menuitem">Услуги</a></li>
+                <li role="none"><a href="#cases" role="menuitem">Кейсы</a></li>
+                <li role="none"><a href="#process" role="menuitem">Процесс</a></li>
+                <li role="none"><a href="#stack" role="menuitem">Технологии</a></li>
+                <li role="none"><a href="#faq" role="menuitem">FAQ</a></li>
+                <li role="none"><a class="nav-cta" href="#contact" role="menuitem">Бесплатная консультация</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- HERO -->
+        <section class="hero" id="top" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <div>
+                    <h1 id="hero-title">AI-боты и AI-консультанты, которые приносят деньги</h1>
+                    <p class="subtitle">Автоматизация продаж, поддержки и внутренних процессов — с фокусом на ROI.</p>
+                    <p class="hero-description">
+                        Делаем AI-решения "под ключ": телеграм-боты, AI-операторы, интеграции CRM/ERP, аналитика, авто-отчёты после звонков/созвонов, сбор лидов и прогрев. Прозрачные этапы, быстрый запуск MVP.
+                    </p>
+                    
+                    <div class="hero-stats" role="list" aria-label="Ключевые цифры">
+                        <div class="stat" role="listitem">
+                            <div class="stat-number">30+</div>
+                            <div class="stat-label">проектов в продакшене</div>
+                        </div>
+                        <div class="stat" role="listitem">
+                            <div class="stat-number">2–6</div>
+                            <div class="stat-label">недель до внедрения</div>
+                        </div>
+                        <div class="stat" role="listitem">
+                            <div class="stat-number">ROI</div>
+                            <div class="stat-label">в центре решения</div>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-buttons">
+                        <a class="btn btn-primary" href="#contact">Получить расчёт</a>
+                        <a class="btn btn-secondary" href="#cases">Посмотреть кейсы</a>
+                    </div>
+                </div>
+                
+                <aside class="hero-card" aria-labelledby="quick-brief-title">
+                    <h3 id="quick-brief-title">Быстрый бриф</h3>
+                    <p class="mini">
+                        Оставьте контакты — пришлём варианты архитектуры, сроки, бюджет и 3 идеи, как быстро "отбить" внедрение.
+                    </p>
+                    <div class="pill-row" aria-label="Теги услуг">
+                        <span class="pill pink">AI-консультант</span>
+                        <span class="pill green">Интеграции</span>
+                    </div>
+                    
+                    <form class="hero-form" id="heroForm" novalidate aria-label="Форма быстрого брифа">
+                        <!-- Honeypot field для защиты от спама -->
+                        <div class="hp-field" aria-hidden="true">
+                            <label for="website">Оставьте это поле пустым</label>
+                            <input type="text" name="website" id="website" tabindex="-1" autocomplete="off">
+                        </div>
+                        
+                        <div>
+                            <label for="heroName" class="visually-hidden">Имя</label>
+                            <input class="input" 
+                                   type="text" 
+                                   id="heroName"
+                                   name="name" 
+                                   placeholder="Имя" 
+                                   required 
+                                   minlength="2"
+                                   aria-required="true">
+                        </div>
+                        
+                        <div>
+                            <label for="heroEmail" class="visually-hidden">Email</label>
+                            <input class="input" 
+                                   type="email" 
+                                   id="heroEmail"
+                                   name="email" 
+                                   placeholder="Email или телефон" 
+                                   required
+                                   aria-required="true">
+                        </div>
+                        
+                        <div>
+                            <label for="heroTask" class="visually-hidden">Задача</label>
+                            <input class="input" 
+                                   type="text" 
+                                   id="heroTask"
+                                   name="task" 
+                                   placeholder="Коротко: что нужно автоматизировать?" 
+                                   required
+                                   aria-required="true">
+                        </div>
+                        
+                        <!-- Чекбокс согласия -->
+                        <div class="checkbox-group">
+                            <label class="checkbox-container" id="heroCheckboxLabel">
+                                <div class="checkbox-custom" id="heroCheckboxCustom" role="checkbox" aria-checked="false"></div>
+                                <input type="checkbox" 
+                                       class="visually-hidden" 
+                                       id="heroCheckbox" 
+                                       name="agree" 
+                                       required
+                                       aria-required="true">
+                                <div class="checkbox-label">
+                                    Даю согласие на обработку персональных данных в соответствии с 
+                                    <a href="https://disk.yandex.ru/i/SFWRI515QDJNow" target="_blank" rel="noopener noreferrer">политикой конфиденциальности</a>
+                                </div>
+                            </label>
+                            <div class="checkbox-error" id="heroCheckboxError" role="alert" aria-live="polite">
+                                Необходимо дать согласие на обработку данных
+                            </div>
+                        </div>
+                        
+                        <button class="btn btn-primary" type="submit" id="heroSubmitBtn">
+                            <span>Отправить</span>
+                        </button>
+                        <p class="form-note">Нажимая "Отправить", вы соглашаетесь на связь по указанным контактам.</p>
+                    </form>
+                </aside>
+            </div>
+        </section>
+
+        <!-- RESULTS -->
+        <section class="results" id="results" aria-labelledby="results-title">
+            <div class="container">
+                <h2 class="section-title" id="results-title">Что вы получите</h2>
+                <p class="section-subtitle">
+                    Мы не "просто делаем бота". Мы строим систему: лид → диалог → квалификация → сделка → отчётность → улучшения.
+                </p>
+                <div class="grid" role="list">
+                    <article class="card" role="listitem">
+                        <div class="icon" aria-hidden="true">📈</div>
+                        <div class="metric">+15–40%</div>
+                        <h3>Рост конверсии</h3>
+                        <p>Сценарии продаж, авто-квалификация, быстрые ответы и персонализация на основе контекста клиента.</p>
+                    </article>
+                    <article class="card" role="listitem">
+                        <div class="icon" aria-hidden="true">⏱️</div>
+                        <div class="metric">−30–70%</div>
+                        <h3>Снижение нагрузки</h3>
+                        <p>AI-оператор закрывает типовые вопросы и передаёт менеджеру только "тёплые" обращения.</p>
+                    </article>
+                    <article class="card" role="listitem">
+                        <div class="icon" aria-hidden="true">🧩</div>
+                        <div class="metric">+</div>
+                        <h3>Интеграции без боли</h3>
+                        <p>amoCRM / Bitrix24 / HubSpot / Google Sheets / Notion / Webhooks — данные в одном месте.</p>
+                    </article>
+                    <article class="card" role="listitem">
+                        <div class="icon" aria-hidden="true">🧠</div>
+                        <div class="metric">24/7</div>
+                        <h3>AI-логика</h3>
+                        <p>Инструкции, базы знаний, ограничения и контроль качества: меньше "галлюцинаций", больше пользы.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="services" id="services" aria-labelledby="services-title">
+            <div class="container">
+                <h2 class="section-title" id="services-title">Услуги</h2>
+                <p class="section-subtitle">
+                    Подберём формат: от быстрого MVP до полноценной платформы с аналитикой, A/B тестами и поддержкой.
+                </p>
+                <div class="grid" role="list">
+                    <article class="service-card" role="listitem">
+                        <div class="service-top">
+                            <div>
+                                <div class="icon" aria-hidden="true">🤖</div>
+                                <h3>Telegram-бот под продажи</h3>
+                                <p class="mini">Лиды, прогрев, квалификация, записи, оплаты.</p>
+                            </div>
+                            <span class="service-badge">MVP: 3-4 недели</span>
+                        </div>
+                        <ul class="service-list">
+                            <li>Сценарии диалогов + ветвление</li>
+                            <li>Кнопки, формы, квизы</li>
+                            <li>Передача в менеджера / CRM</li>
+                            <li>Анти-спам и логирование</li>
+                        </ul>
+                    </article>
+                    <article class="service-card" role="listitem">
+                        <div class="service-top">
+                            <div>
+                                <div class="icon" aria-hidden="true">🧑‍💼</div>
+                                <h3>AI-консультант / AI-оператор</h3>
+                                <p class="mini">Поддержка, продажи, консультации по базе знаний.</p>
+                            </div>
+                            <span class="service-badge">Запуск: 2-3 недели</span>
+                        </div>
+                        <ul class="service-list">
+                            <li>Настройка знаний (FAQ/доки/сайт)</li>
+                            <li>Ограничения и правила ответа</li>
+                            <li>Эскалация к человеку</li>
+                            <li>Контроль качества (лог + отчёты)</li>
+                        </ul>
+                    </article>
+                    <article class="service-card" role="listitem">
+                        <div class="service-top">
+                            <div>
+                                <div class="icon" aria-hidden="true">🔗</div>
+                                <h3>Интеграции CRM/ERP</h3>
+                                <p class="mini">Данные, сделки, статусы, отчётность автоматически.</p>
+                            </div>
+                            <span class="service-badge">Под задачу</span>
+                        </div>
+                        <ul class="service-list">
+                            <li>amoCRM / Bitrix / HubSpot</li>
+                            <li>1С / Odoo / Google Sheets / Telegram API</li>
+                            <li>Webhook-автоматизация</li>
+                            <li>События и триггеры</li>
+                        </ul>
+                    </article>
+                    <article class="service-card" role="listitem">
+                        <div class="service-top">
+                            <div>
+                                <div class="icon" aria-hidden="true">🎙️</div>
+                                <h3>AI-отчёты после созвонов</h3>
+                                <p class="mini">Выжимка, дедлайны, договорённости, тональность.</p>
+                            </div>
+                            <span class="service-badge">Пилот: 1 неделя</span>
+                        </div>
+                        <ul class="service-list">
+                            <li>Итоги встречи + next steps</li>
+                            <li>Кто что обещал и когда</li>
+                            <li>Сводка по настроению команды</li>
+                            <li>Экспорт в Notion / Sheets</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CASES -->
+        <section class="cases" id="cases" aria-labelledby="cases-title">
+            <div class="container">
+                <h2 class="section-title" id="cases-title">Кейсы</h2>
+                <p class="section-subtitle">Реальные проекты с измеримыми результатами для наших клиентов.</p>
+                <div class="grid" role="list">
+                    <article class="card case-card" role="listitem">
+                        <div class="icon" aria-hidden="true">💬</div>
+                        <div class="metric">Лиды</div>
+                        <h3>Telegram-бот для лидогенерации</h3>
+                        <p>Telegram-квиз с авто-квалификацией и записью на консультацию. Увеличение количества лидов за 3 месяца.</p>
+                        <div class="tag-row">
+                            <span class="tag">Telegram</span>
+                            <span class="tag">amoCRM</span>
+                            <span class="tag">Квиз</span>
+                        </div>
+                    </article>
+                    <article class="card case-card" role="listitem">
+                        <div class="icon" aria-hidden="true">📞</div>
+                        <div class="metric">Поддержка</div>
+                        <h3>AI-оператор для техподдержки</h3>
+                        <p>AI-оператор отвечает на типовые вопросы 24/7. Снижение нагрузки на менеджеров поддержки.</p>
+                        <div class="tag-row">
+                            <span class="tag">Поддержка</span>
+                            <span class="tag">База знаний</span>
+                            <span class="tag">24/7</span>
+                        </div>
+                    </article>
+                    <article class="card case-card" role="listitem">
+                        <div class="icon" aria-hidden="true">🧾</div>
+                        <div class="metric">Отчёты</div>
+                        <h3>Автоматические отчёты после созвонов</h3>
+                        <p>Авто-отчёты с формированием summary, задач и дедлайнов. Экономия времени на рутинной работе.</p>
+                        <div class="tag-row">
+                            <span class="tag">Zoom/Meet</span>
+                            <span class="tag">Notion</span>
+                            <span class="tag">Автоматизация</span>
+                        </div>
+                    </article>
+                    <article class="card case-card" role="listitem">
+                        <div class="icon" aria-hidden="true">🔁</div>
+                        <div class="metric">Продажи</div>
+                        <h3>Система повторных продаж</h3>
+                        <p>Авто-прогрев и повторные продажи с сегментацией клиентов и триггерными сообщениями.</p>
+                        <div class="tag-row">
+                            <span class="tag">Retention</span>
+                            <span class="tag">Сегменты</span>
+                            <span class="tag">Триггеры</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROCESS -->
+        <section class="process" id="process" aria-labelledby="process-title">
+            <div class="container">
+                <h2 class="section-title" id="process-title">Как мы работаем</h2>
+                <p class="section-subtitle">
+                    Прозрачный процесс: фиксируем KPI, быстро делаем MVP, затем докручиваем до стабильного результата.
+                </p>
+                <div class="steps" role="list">
+                    <article class="step" role="listitem">
+                        <div class="step-num">ШАГ 1</div>
+                        <h3>Разбор задачи и ROI-гипотезы</h3>
+                        <p>Понимаем, где теряются деньги/время, выбираем 2–3 быстрые гипотезы и метрики успеха.</p>
+                    </article>
+                    <article class="step" role="listitem">
+                        <div class="step-num">ШАГ 2</div>
+                        <h3>Прототип сценариев</h3>
+                        <p>Согласуем тон, структуру диалогов, правила, ограничения и точки передачи человеку.</p>
+                    </article>
+                    <article class="step" role="listitem">
+                        <div class="step-num">ШАГ 3</div>
+                        <h3>MVP и интеграции</h3>
+                        <p>Подключаем Telegram, CRM/таблицы, аналитические события. Запускаем на ограниченную аудиторию.</p>
+                    </article>
+                    <article class="step" role="listitem">
+                        <div class="step-num">ШАГ 4</div>
+                        <h3>Оптимизация и масштаб</h3>
+                        <p>Смотрим воронку, улучшаем сообщения, добавляем автоворонки, отчёты и контроль качества.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- STACK -->
+        <section class="stack" id="stack" aria-labelledby="stack-title">
+            <div class="container">
+                <h2 class="section-title" id="stack-title">Технологии</h2>
+                <p class="section-subtitle">
+                    Используем современный стек технологий для создания надёжных и масштабируемых решений.
+                </p>
+                <div class="stack-grid" role="list">
+                    <div class="chip" role="listitem">
+                        <strong>OpenAI GPT</strong>
+                        <span>Ядро AI-логики</span>
+                    </div>
+                    <div class="chip" role="listitem">
+                        <strong>Claude AI</strong>
+                        <span>Аналитика и отчёты</span>
+                    </div>
+                    <div class="chip" role="listitem">
+                        <strong>Python</strong>
+                        <span>Бекенд и интеграции</span>
+                    </div>
+                    <div class="chip" role="listitem">
+                        <strong>Node.js</strong>
+                        <span>API и веб-хуки</span>
+                    </div>
+                    <div class="chip" role="listitem">
+                        <strong>Telegram API</strong>
+                        <span>Мессенджер-боты</span>
+                    </div>
+                    <div class="chip" role="listitem">
+                        <strong>PostgreSQL</strong>
+                        <span>Базы данных</span>
+                    </div>
+                    <div class="chip" role="listitem">
+                        <strong>Docker</strong>
+                        <span>Контейнеризация</span>
+                    </div>
+                    <div class="chip" role="listitem">
+                        <strong>AWS/GCP</strong>
+                        <span>Хостинг и инфраструктура</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS -->
+        <section class="testimonials" id="testimonials" aria-labelledby="testimonials-title">
+            <div class="container">
+                <h2 class="section-title" id="testimonials-title">Отзывы</h2>
+                <div class="grid" role="list">
+                    <article class="card" role="listitem">
+                        <blockquote class="quote">
+                            "Запустили Telegram-бота за 3 недели. Лиды стали приходить более тёплые, менеджеры перестали тонуть в рутине. ROI за 2 месяца."
+                        </blockquote>
+                        <div class="who">
+                            <div class="avatar" aria-hidden="true"></div>
+                            <div>
+                                <b>Алина, коммерческий директор</b>
+                                <small>eCommerce</small>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card" role="listitem">
+                        <blockquote class="quote">
+                            "AI-оператор снял половину типовых обращений. Теперь команда фокусируется на сложных кейсах и продажам. Экономия 120+ часов в месяц."
+                        </blockquote>
+                        <div class="who">
+                            <div class="avatar" aria-hidden="true"></div>
+                            <div>
+                                <b>Дмитрий, руководитель поддержки</b>
+                                <small>SaaS</small>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card" role="listitem">
+                        <blockquote class="quote">
+                            "Сводки после созвонов — огонь: задачи, дедлайны и ответственность фиксируются автоматически. Дисциплина выросла на 40%."
+                        </blockquote>
+                        <div class="who">
+                            <div class="avatar" aria-hidden="true"></div>
+                            <div>
+                                <b>Ирина, PM</b>
+                                <small>Агентство</small>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq" id="faq" aria-labelledby="faq-title">
+            <div class="container">
+                <h2 class="section-title" id="faq-title">FAQ</h2>
+                <p class="section-subtitle">Коротко отвечаем на популярные вопросы.</p>
+                
+                <details>
+                    <summary>
+                        Сколько стоит разработка? 
+                        <span class="plus" aria-hidden="true">+</span>
+                    </summary>
+                    <p>Зависит от сценариев и интеграций. Обычно делаем оценку после 15–30 минут созвона и короткого брифа. Стоимость MVP начинается от 150 000 ₽.</p>
+                </details>
+                <details>
+                    <summary>
+                        Можно ли начать с MVP? 
+                        <span class="plus" aria-hidden="true">+</span>
+                    </summary>
+                    <p>Да. Мы специально строим работу так, чтобы быстро запустить минимальную версию и улучшать по метрикам. Первые результаты — через 2-4 недели.</p>
+                </details>
+                <details>
+                    <summary>
+                        Как контролируете качество AI-ответов? 
+                        <span class="plus" aria-hidden="true">+</span>
+                    </summary>
+                    <p>Логи, правила и ограничения, тестирование сценариев, регулярные отчёты и корректировки базы знаний. + ручная модерация на старте.</p>
+                </details>
+                <details>
+                    <summary>
+                        Вы даёте поддержку после запуска? 
+                        <span class="plus" aria-hidden="true">+</span>
+                    </summary>
+                    <p>Да: мониторинг, правки сценариев, улучшения по воронке, новые интеграции и расширение функционала. Поддержка включена в первые 3 месяца.</p>
+                </details>
+                <details>
+                    <summary>
+                        Работаете с 1С? 
+                        <span class="plus" aria-hidden="true">+</span>
+                    </summary>
+                    <p>Да, интегрируем AI-решения с 1С через API и веб-хуки. Автоматизация учёта, остатков, заказов и отчётности.</p>
+                </details>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact" id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 class="section-title" id="contact-title">Контакты</h2>
+                <div class="contact-grid">
+                    <div class="contact-box">
+                        <h3>Свяжитесь с нами</h3>
+                        <p>Обсудим вашу задачу, предложим решение и рассчитаем сроки/бюджет. Первая консультация — бесплатно.</p>
+                        <nav class="contact-links" aria-label="Способы связи">
+                            <a href="mailto:e.prikhodko@yandex.ru" class="link" rel="noopener noreferrer">
+                                <span>Email</span>
+                                <small>e.prikhodko@yandex.ru</small>
+                            </a>
+                            <a href="https://t.me/PRIKHODKO_AI_bot" target="_blank" class="link" rel="noopener noreferrer">
+                                <span>Telegram бот</span>
+                                <small>@PRIKHODKO_AI_bot</small>
+                            </a>
+                        </nav>
+                        <div style="margin-top: 2rem;">
+                            <h4>Рабочие часы</h4>
+                            <p>Пн–Пт: 10:00–19:00 (МСК)<br>Сб–Вс: по договорённости</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-box">
+                        <h3>Быстрая заявка</h3>
+                        <p>Оставьте контакты, и мы свяжемся с вами в течение 2 часов в рабочее время.</p>
+                        
+                        <form id="contactForm" style="margin-top: 1.5rem;" novalidate aria-label="Форма быстрой заявки">
+                            <!-- Honeypot field -->
+                            <div class="hp-field" aria-hidden="true">
+                                <label for="company_url">Оставьте это поле пустым</label>
+                                <input type="text" name="company_url" id="company_url" tabindex="-1" autocomplete="off">
+                            </div>
+                            
+                            <div class="field">
+                                <label for="contactName">Имя / Компания</label>
+                                <input class="input" 
+                                       type="text" 
+                                       id="contactName"
+                                       name="name" 
+                                       placeholder="Введите имя или компанию" 
+                                       required
+                                       minlength="2"
+                                       aria-required="true">
+                            </div>
+                            <div class="field">
+                                <label for="contactEmail">Email для связи</label>
+                                <input class="input" 
+                                       type="email" 
+                                       id="contactEmail"
+                                       name="email" 
+                                       placeholder="Введите ваш email или телефон" 
+                                       required
+                                       aria-required="true">
+                            </div>
+                            <div class="field">
+                                <label for="contactTask">Задача</label>
+                                <textarea id="contactTask"
+                                          name="task" 
+                                          rows="4" 
+                                          placeholder="Коротко: что нужно автоматизировать? Какие CRM/ERP используете?" 
+                                          required
+                                          minlength="10"
+                                          aria-required="true"></textarea>
+                            </div>
+                            
+                            <!-- Чекбокс согласия -->
+                            <div class="checkbox-group">
+                                <label class="checkbox-container" id="contactCheckboxLabel">
+                                    <div class="checkbox-custom" id="contactCheckboxCustom" role="checkbox" aria-checked="false"></div>
+                                    <input type="checkbox" 
+                                           class="visually-hidden" 
+                                           id="contactCheckbox" 
+                                           name="agree" 
+                                           required
+                                           aria-required="true">
+                                    <div class="checkbox-label">
+                                        Даю своё согласие на обработку персональных данных в соответствии с 
+                                        <a href="https://disk.yandex.ru/i/SFWRI515QDJNow" target="_blank" rel="noopener noreferrer">политикой конфиденциальности</a>
+                                    </div>
+                                </label>
+                                <div class="checkbox-error" id="contactCheckboxError" role="alert" aria-live="polite">
+                                    Необходимо дать согласие на обработку данных
+                                </div>
+                            </div>
+                            
+                            <button class="btn btn-primary" type="submit" id="contactSubmitBtn" style="width: 100%; margin-top: 1rem;">
+                                <span>Отправить заявку</span>
+                            </button>
+                            <p class="form-note">Нажимая «Отправить», вы соглашаетесь на связь по указанным контактам.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-inner">
+                <div>
+                    <span class="logo">PRIKHODKO AI</span>
+                    <span class="muted">© <span id="year"></span></span>
+                </div>
+                <div>
+                    <p class="muted">AI-боты · AI-консультанты · Интеграции · Автоматизация</p>
+                    <nav class="contact-links-mini" aria-label="Контакты в футере">
+                        <a href="mailto:e.prikhodko@yandex.ru" rel="noopener noreferrer">
+                            <span aria-hidden="true">✉️</span> e.prikhodko@yandex.ru
+                        </a>
+                        <a href="https://t.me/PRIKHODKO_AI_bot" target="_blank" rel="noopener noreferrer">
+                            <span aria-hidden="true">🤖</span> @PRIKHODKO_AI_bot
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal" 
+         id="leadModal" 
+         aria-hidden="true" 
+         role="dialog" 
+         aria-modal="true"
+         aria-labelledby="leadModalTitle">
+        <div class="modal__content" tabindex="-1">
+            <h3 id="leadModalTitle">Спасибо! Заявка принята ✅</h3>
+            <p id="leadModalText">
+                Мы свяжемся с вами в ближайшее время. Обычно отвечаем в течение 2 часов в рабочее время.<br>
+                Также проверьте папку "Спам", если не найдёте наше письмо.
+            </p>
+            <div class="modal__actions">
+                <a class="btn btn-primary" id="leadMailto" href="mailto:e.prikhodko@yandex.ru" rel="noopener noreferrer">Написать на email</a>
+                <a class="btn btn-secondary" href="https://t.me/PRIKHODKO_AI_bot" target="_blank" rel="noopener noreferrer">Написать в Telegram бот</a>
+                <button class="btn btn-secondary" type="button" id="leadModalClose" aria-label="Закрыть окно">Закрыть</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts (defer для оптимизации загрузки) -->
+    <script src="js/script.min.js" defer></script>
+</body>
+</html>
