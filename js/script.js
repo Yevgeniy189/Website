@@ -12,7 +12,7 @@
     // ========================================
     const CONFIG = {
         // 🔧 ЗАМЕНИТЕ НА URL ВАШЕГО TELEGRAM BOT WEBHOOK
-        WEBHOOK_URL: 'https://YOUR-BOT-URL/webhook/form',
+        WEBHOOK_URL: 'https://telegram-bot-service-xsq92i.abacusai.app/webhook/form',
         
         // Таймауты
         TOAST_DURATION: 4000,
